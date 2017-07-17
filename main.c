@@ -7,6 +7,13 @@ void menu() {
 	printf("English - flag en\n");
 }
 
+void hello(char *arg){
+	if(arg=="p")printf("Hello world\n");
+	else printf("witaj swiecie\n");
+}
+
 int main (int argc, const char ** argv) {
 	menu();
+  hello(argv[1]);
+  return 0;
 }
