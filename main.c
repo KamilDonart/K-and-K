@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void hello(char * arg){
+void hello(char *arg){
 	if(arg=="p")printf("Hello world\n");
 	else printf("witaj swiecie\n");
 }
